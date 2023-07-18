@@ -2,3 +2,4 @@ A recurrent perceptron will, instead of feeding it's adjusted biases forward, wi
 2 issues arise when rnns increase in size, vanishing gradients, and exploding gradients
 LSTMs -> Long Short Term Memory perceptrons. LSTMs posses long and short term memory inputs and outputs, so as to alleviate the problems that rnns have in remembering biases assigned to earlier members of the sequence
 Gated Reccurent Units
+The time series generator creates a means by which a dataset is taken in, and the predictions seperated. The important parameters are : length (how much data do we train on?), batch_size: (The result of such a length)
